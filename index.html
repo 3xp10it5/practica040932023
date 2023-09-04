@@ -53,14 +53,34 @@
                 <option value="3">Otro</option>
             </select>
         </div>
+
         <div>
-            <label for="genero">Carrera:</label>
-            <select name="genero" id="genero" multiple>
-                <option value="1">Mujer</option>
-                <option value="2">Hombre</option>
-                <option value="3">Otro</option>
+            <label for="curso">Curso:</label>
+            <select name="curso" id="curso" multiple>
+                <option value="1">C++</option>
+                <option value="2">Python</option>
+                <option value="3">Cobol</option>
             </select>
         </div>
+
+        <div>
+            <label for="curso">Curso:</label>
+            <select name="curso" id="curso">
+                <optgroup label="En Linea">
+                    <option value="1">C++</option>
+                </optgroup>
+                <optgroup>
+                    <option value="2">Python</option>
+                    <option value="3">Cobol</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <input type="button" value="Guardar">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        <button>Enviar</button>
+        <a href="#">Enviar</a>
 
     </form>
 </body>
